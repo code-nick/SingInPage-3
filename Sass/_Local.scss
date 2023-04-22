@@ -50,8 +50,19 @@
     }
     &__sign_btn{
         padding: 1rem;
-        margin-top: 1rem;
+        margin-top: 0.6rem;
     }
+    &__sign_btn input{
+        padding: 1rem 3rem;
+        border-radius: 3rem;
+        border: none;
+        background-color: #000000;
+        text-align: center;
+     }
+     &__sign_btn input::placeholder{
+        color: #fff;
+        font-weight: bold;
+     }
 }
  .facebook_google_link{
         padding: 1rem;
@@ -67,7 +78,7 @@
             box-shadow: -2px 2px 11px 2px #ddd ;
             position: relative;
             text-decoration: none;
-            top: 1rem;
+            top: 3rem;
 
         }
         &__google_btn a img{
@@ -93,7 +104,7 @@
             box-shadow: -2px 2px 11px 2px #ddd ;
             position: relative;
             text-decoration: none;
-            top: 6rem;
+            top: 7rem;
         }
          &__facebook_btn a img{
             position: absolute;
