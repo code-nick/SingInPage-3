@@ -1,0 +1,110 @@
+.container {
+    width: 100%;
+    padding: 2rem;
+    background-color: rgba(255,185,0,255);
+
+    &__section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        flex-shrink: 1;
+    }
+    &__back-btn i {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+.container__Text_information {
+    display: grid;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-top: 0.8rem;
+}
+.input_section{
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+
+    &__input{
+        padding: 1rem;
+    }
+
+    &__input input{
+       padding: 1rem 3rem;
+       margin-top: 1rem;
+       border-radius: 3rem;
+       border: none;
+       background-color: whitesmoke;;
+    }
+    &__forget_password{
+        text-align: right;
+        padding: 0rem 1rem;
+    }
+    &__sign_btn{
+        padding: 1rem;
+    }
+}
+ .facebook_google_link{
+        padding: 1rem;
+        text-align: center;
+        background-color: rgba(255,255,255,255);
+        justify-content: space-between;
+      
+
+        &__google_btn a{
+            padding: 0.9rem 4.2rem;;
+            border-radius: 3rem;
+            background-color: rgb(250, 250, 250);
+            box-shadow: -2px 2px 11px 2px #ddd ;
+            position: relative;
+            text-decoration: none;
+
+        }
+        &__google_btn a img{
+            position: absolute;
+            left: 12px;
+
+        }
+        &__google_btn a i{
+            position: absolute;
+            text-align: center;
+            align-items: center;
+            right:1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        &__facebook_btn a{
+            margin-top: 5rem;
+            padding: 0.9rem 3.9rem;;
+            border-radius: 3rem;
+            background-color: rgb(250, 250, 250);
+            box-shadow: -2px 2px 11px 2px #ddd ;
+            position: relative;
+            text-decoration: none;
+            top: 3rem;
+        }
+         &__facebook_btn a img{
+            position: absolute;
+            left: 12px;
+
+        }
+          &__facebook_btn a i{
+            position: absolute;
+            text-align: center;
+            align-items: center;
+            right:1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        
+
+    }
